@@ -1,0 +1,51 @@
+form, input{
+    margin: 2% 1%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main>table td,main>table, th, main>table{
+    border: 1px green solid;
+}
+
+table{
+    margin-left: 2% ;
+}
+
+table th{
+    width: 18%;
+    background-color: blue;
+}
+
+main a{
+    margin: 10px;
+}
+
+main>img{
+    border-right:1px solid black;
+}
+
+table img{
+    width: 80%;
+}
+
+main label{
+    width: 30%;
+}
+
+main div a:nth-child(2){
+    border-left: black solid 1px;
+    padding: 0% 3%;
+}
+
+a[href^="mailto:"]::before{
+    content: url("../images/email.png");
+}
+
+a[href^="tel:"]::before{
+    content: url("../images/tel.png");
+}
+
+p.error{
+    color: red;
+}
